@@ -3,10 +3,14 @@
 
 %replicate
 
-% Description: This MATLAB function outputs fragments generated in Sanger Sequencing when a fraction of ddNTPs are added along with dNTPs during replication (along with radioactively labeled primers). ddNTPs do not have nucleophilic attack activity because they lack a 2' OH usually found in deoxyribonucleotides.
+% Description: This MATLAB function outputs fragments generated in Sanger Sequencing when a fraction of ddNTPs are added along with dNTPs
+%   during replication (along with radioactively labeled primers). ddNTPs do not have nucleophilic attack activity because they lack a 2'
+%   OH usually found in deoxyribonucleotides.
 %
 % Input: The parameter being taken in is a string that is a DNA sequence.
-% Return Type: This function returns a matrix with all the possible sequence fragments possible from the Sanger sequencing method. Also, the function prints out each fragment that is prematurely terminated by a ddNTP, to stimulate a real-time check of the finite possibilities of this sequencing method.
+% Return Type: This function returns a matrix with all the possible sequence fragments possible from the Sanger sequencing method. Also,
+%   the function prints out each fragment that is prematurely terminated by a ddNTP, to stimulate a real-time check of the finite 
+%   possibilities of this sequencing method.
 %
 % Assumptions: include that the process of adding ddNTPs is repeated 4 times, once for each residue.
 %

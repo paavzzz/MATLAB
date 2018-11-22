@@ -1,7 +1,5 @@
-%% Problem 1
 
-
-%The Equations:
+%Equations:
 
 % R1*i1 + R2*i2 -v1 = 0
 % -R2*i2 + R3*i3 + R5*i5 = 0
@@ -62,12 +60,4 @@ end
 
 fprintf('V2 is %d',v2);
 answer
-
-%% Problem 2
-DNA=string('TACGATAAGAAATTCCCAATT');
-RNA=transcribe(DNA)
-
-%% Problem 3
-DNA=string('AUGUCGUCCUUUUUCUAA');
-aminos=translate(DNA)
 
